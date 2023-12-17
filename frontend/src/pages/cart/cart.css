@@ -1,0 +1,123 @@
+/* CSS for the Cart component (cart.css) */
+
+/*Styling for the container that has the whole cart*/
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  /*heading style for cart*/
+.cart-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /*Styling for individual product boxes insie the cart*/
+.product-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+  /*Styling for the added products label*/
+.added-products {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  /*styles for individual items in the cart*/
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  /*styles for the product info section within each item */
+.product-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allow product info to take up available space */
+  }
+  /*remove product button styling*/
+.remove-product {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  /*hover effect for the remove product buttom*/
+  .remove-product:hover {
+    background-color: #ff3b3b;
+  }
+  /*Styling for quantity control section*/
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push quantity control to the right */
+  }
+  /*quantity adjustment button styling*/
+  .quantity-button {
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  /*hover effect for the button*/
+  .quantity-button:hover {
+    background-color: #006600;
+  }
+  /*styling for the input field*/
+  .quantity-input {
+    width: 40px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px; /* Add spacing between the input and buttons */
+    text-align: center;
+  }
+  
+  /* Added styles to display quantity, price, and buttons on the right corner */
+  .quantity-display {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .price-display {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  /* Add this style for the checkout button */
+  .checkout-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px; /* Add some spacing from the product box */
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #ff3b3b; /* Darker red on hover */
+  }
+  
+  

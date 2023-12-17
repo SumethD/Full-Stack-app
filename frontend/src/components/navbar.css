@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light shade of green (e.g., AliceBlue) */
+  }
+  
+/* Logo Styles */
+.logo {
+  width: 50px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+  /* Navigation Bar Styles */
+  .main-content {
+    background-color: #2fdf61; /* Light shade of green */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .header {
+    flex-grow: 1; /* Expands to fill available space */
+    text-align: center;
+  }
+  
+  .header1 {
+    font-size: 36px;
+    color: #000; /* Black */
+    margin-left: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000000; /* White */
+    background-color: #2fdf61; /* Blue (you can choose your own color) */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons a:hover {
+    background-color: #f3dd32; /* Darker blue on hover */
+  }
+  
+  /* Media Query for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .buttons {
+      flex-direction: column; /* Stacked buttons on smaller screens */
+      gap: 10px;
+    }
+  
+    .buttons a {
+      width: 100%;
+    }
+  }
+  

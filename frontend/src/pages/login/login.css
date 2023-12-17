@@ -1,0 +1,85 @@
+/* Login Page Styles */
+.loginbody {
+  background-color: #f0f0f0; /* Light gray background for the login container */
+  height: 100vh; /* Set the container to occupy the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.loginhead {
+  font-size: 60px;
+  color: #333; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box {
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #e5e5e5; /* Light gray box background */
+  border: 0px solid black; /* You should specify 'solid' for the border style */
+  width: 500px;
+  padding: 70px 20px;
+  gap: 15px;
+}
+
+label {
+  font-size: 18px;
+  color: #333; /* Dark gray text for labels */
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Add an underline effect */
+  background-color: transparent; /* Transparent background */
+  text-align: center;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #275c95; /* Blue border on focus */
+}
+
+.loginbutton-container {
+  background-color: #3aca60; /* Green button background */
+  color: #fff; /* White text */
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.loginbutton-container:hover {
+  background-color: #093a41; /* Darker blue on hover */
+}
+
+p {
+  font-size: 18px;
+  color: #000; /* Dark gray text */
+  margin-top: 20px;
+}
+.regname {
+  color: #000;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.regname:hover {
+  color: rgb(222, 141, 27);
+  text-decoration: underline;
+}

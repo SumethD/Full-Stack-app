@@ -1,0 +1,53 @@
+/* delivery.css comments*/
+
+/* Below are the stylings for the delivery page of SuperPrice */
+
+.delivery-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* delivery details styling */
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .detail {
+    margin-bottom: 10px;
+  }
+  
+  /* formatted styling for the text input fields */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /*overall styling for the summary section of the deliveries*/
+  .summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,226 @@
+/* CSS for the Home component */
+
+/* Search Bar Styles (No changes) */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.search-button {
+  background-color: #3aca60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.search-button:hover {
+  background-color: #0bced5;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #008000;
+  display: flex;
+  justify-content: space-between; /* Center the tabs and cart */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Adjust padding for spacing */
+}
+
+
+
+.navbar a:hover {
+  background-color: #eae4e4;
+}
+
+/* Cart Styles */
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart img {
+  width: 24px;
+  height: 24px;
+  background-color: #ddd;
+  margin-right: 5px; 
+  border-radius: 10px;
+  padding: 5px;/* Add spacing between the cart icon and label */
+}
+
+/* Featured Product Styles */
+.featured-product {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Featured Product Container */
+.product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: calc(33.33% - 10px); /* Width for each product card */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 10px; /* Add space between each product card */
+}
+
+.product-card:last-child {
+  margin-right: 0; /* Remove margin on the last product card */
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.add-to-cart {
+  background-color: #3aca60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.compare-items {
+  background-color: #1599ad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #0bced5;
+}
+
+/* Shop Online Styles */
+.shop-online {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Shop Online Container */
+.product-container-shop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card-shop {
+  width: calc(25% - 10px); /* Width for each product card (four products in a row) */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 10px; /* Add space between each product card */
+}
+
+.product-card-shop:last-child {
+  margin-right: 0; /* Remove margin on the last product card */
+}
+
+.product-card-shop h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-price-shop {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.add-to-cart-shop {
+  background-color: #3aca60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-to-cart-shop:hover {
+  background-color: #0bced5;
+}
+
+/* Add this at the end of your home.css file */
+.show-more {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.show-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3aca60;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.show-more a:hover {
+  background-color: #0bced5;
+}
+
+.product-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.product-card-2 {
+  flex-basis: calc(33.33% - 10px); /* 3 items per row, adjust width as needed */
+  margin-bottom: 20px;
+  /* Add other styling for your product cards */
+}

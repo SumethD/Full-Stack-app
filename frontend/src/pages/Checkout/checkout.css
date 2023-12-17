@@ -1,0 +1,66 @@
+/* Style the container */
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Center the "Checkout" heading */
+.checkout-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the content container */
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Style form sections (fieldsets) */
+.form-section {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Remove margin-right from the last form section */
+.form-section:last-child {
+  margin-right: 0;
+}
+
+/* Style form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the Submit button */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

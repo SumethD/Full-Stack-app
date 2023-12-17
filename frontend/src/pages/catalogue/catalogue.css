@@ -1,0 +1,139 @@
+/* Catalogue Heading Styles */
+.catalogue-heading {
+    font-size: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.space {
+    margin-top: 25px;   /*Margin space*/
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    justify-content: center;    /*centre aligning the content within the container*/
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/*Using flexbox for the form container, adjusting content alignmentm width and visual elements such as colour, padding and borders*/
+form {
+    display: flex;
+    align-items: center;    
+    width: 80%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*Styling for input - font sizes, outline adjustment and padding adjustment*/
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+/*Styling for the search button - colour, button sizing, interaction and alignment*/
+.search-button {
+    background-color: #3aca60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+/*Styling for button hover*/
+.search-button:hover {
+    background-color: #0bced5;
+}
+
+/* Filter Sidebar Styles */
+.filter-product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-sidebar {
+    width: 20%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+/*Heading styles*/
+.filter-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.filter-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-sidebar li:hover {
+    background-color: #eae4e4;
+}
+
+/* Product Grid Styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(30% - 20px), 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+/*Styling for the product items - alignment, colours, format*/
+.product-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*Font styling for product items*/
+.product-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+/*Font styling for product item descriptions*/
+.product-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    margin-top: 5px;
+}
+/*Add to card button styling*/
+.add-to-cart {
+    background-color: #3aca60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #0bced5;
+}
