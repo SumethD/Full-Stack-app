@@ -2,7 +2,7 @@ version: '3.4'
 services:
   api:
     platform: "linux/amd64"
-    image: 559674923590.dkr.ecr.us-east-1.amazonaws.com/sept-temaproject:g07-04
+    image: backend/
     ports:
       - "8080:8080"
     environment:
