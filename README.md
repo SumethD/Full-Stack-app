@@ -1,8 +1,8 @@
-# SuperPrice - Price Matching and Delivery Application
+# SuperPrice - Price Matching Application
 
 ## Project Overview
 
-The SuperPrice project is a collaborative effort aimed at developing a comprehensive price-matching and delivery application. The primary goal is to create a user-friendly and efficient platform that enables users to find the lowest prices for groceries and facilitates seamless delivery arrangements. SuperPrice aims to enhance the shopping experience, save time and money, and streamline the process of grocery shopping for customers.
+The SuperPrice project is a collaborative effort aimed at developing a comprehensive price-matching application. The primary goal is to create a user-friendly and efficient platform that enables users to find the lowest prices for groceries and facilitates a seamless experience. SuperPrice aims to enhance the shopping experience, save time and money, and streamline the process of grocery shopping for customers.
 
 ## Key Features
 
@@ -40,4 +40,29 @@ SuperPrice boasts a user-friendly and intuitive interface, making it accessible 
 
 - **API:**
   - The application uses RESTful APIs for communication between the frontend and backend components, ensuring seamless data transfer.
+
+## Skills Acquired
+
+- **Full-Stack Development:**
+  - Implemented both frontend and backend components, showcasing proficiency in full-stack development.
+
+- **React Framework:**
+  - Utilized React for building the interactive and dynamic user interface, demonstrating skills in frontend development.
+
+- **Java and Spring Boot:**
+  - Developed the backend using Java in conjunction with the Spring Boot framework, highlighting expertise in backend development.
+
+- **Database Management:**
+  - Used SQL for database management, including data retrieval and storage.
+
+- **Containerization with Docker:**
+  - Employed Docker for containerization, showcasing skills in application deployment and scalability.
+
+- **Web Scraping:**
+  - Implemented web scrapers in Java to extract data from online stores, demonstrating skills in data acquisition.
+
+- **API Integration:**
+  - Utilized RESTful APIs for seamless communication between frontend and backend components, showcasing skills in API integration.
+
+
 
